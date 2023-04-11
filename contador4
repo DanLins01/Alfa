@@ -1,0 +1,15 @@
+import random
+import statistics
+contP = 0
+lista = []
+for cont in range (0,15):
+    if(cont%2==1):
+       contP += 1
+       lista.append(cont)
+
+        
+print(f" A Quantidade de números impares :{contP}")
+print(lista)
+print(f" A Quantidade de números impares é : {sum (lista)}")
+print (f"O maior número da lista é : {max(lista)}")
+print (f"O menor número da lista é : {min(lista)}")
