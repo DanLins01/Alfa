@@ -1,0 +1,15 @@
+import random
+import statistics
+contP = 0
+lista = []
+for cont in range (85,907):
+    if(cont%2==0):
+       contP += 1
+       lista.append(cont)
+
+        
+print(f" A Quantidade de números pares :{contP}")
+print(lista)
+print(f" A Quantidade de números pares é : {sum (lista)}")
+print (f"O maior numero da lista é : {max(lista)}")
+print (f"O menor numero da lista é : {min(lista)}")
